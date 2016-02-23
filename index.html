@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <script src="./dist/waypoint-lazyload.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (function () {
+
+            LazyLoad.callback('simple', function (element) {
+                console.log("Lazy Loaded");
+            });
+
+
+            LazyLoad.callback('inview', function (element) {
+                console.log("Loaded via inview");
+            });
+
+
+            LazyLoad.load('inview', 'body');
+            LazyLoad.load('simple', 'body');
+
+        }), false);
+    </script>
+</head>
+<body>
+
+<h1>Lazy loading test</h1>
+
+<img src="http://lorempixel.com/400/200/">
+
+<img data-src="http://lorempixel.com/401/203/">
+<br>
+<img data-inview-src="http://lorempixel.com/400/203/">
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<img data-inview-src="http://lorempixel.com/400/201/">
+<img data-inview-src="http://lorempixel.com/400/205/">
+</body>
+</html>

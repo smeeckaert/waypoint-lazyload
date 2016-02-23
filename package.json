@@ -1,0 +1,13 @@
+{
+  "name": "wapoints-lazyload",
+  "version": "1.0.0",
+  "description": "Easy lazy load with waypoint.js",
+  "author": "Martin Smeeckaert",
+  "devDependencies": {
+    "grunt": "",
+    "grunt-cli": "",
+    "grunt-contrib-watch": "",
+    "grunt-contrib-uglify": "",
+    "waypoints": ""
+  }
+}
