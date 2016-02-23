@@ -9,6 +9,12 @@ There is no extra dependancies.
 
 You can find the library in the ```dist/``` folder.
 
+## Demo
+
+[You can find a demo here.](http://smeeckaert.github.io/waypoint-lazyload/)
+
+Check the source for more infos.
+
 ## How to use
 
 The most simple usage is to include ```waypoint.lazyload.min.js```.
